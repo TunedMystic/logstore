@@ -1,0 +1,22 @@
+{
+  "name": "nosql",
+  "version": "0.0.1",
+  "description": "A simple log store app",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tunedmystic/logstore"
+  },
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "author": "Tunedmystic",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lokijs": "^1.4.2",
+    "moment": "^2.17.1",
+    "node-uuid": "^1.4.7"
+  }
+}
